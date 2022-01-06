@@ -20,7 +20,7 @@ const makeCommit = async (git, n) => {
     const x = random.int(0, 54)
     const y = random.int(0, 6)
     const DATE = moment()
-        .subtract(3, "y") //-3 years
+        .subtract(4, "y") //-4 yearss
         .add(1, "d")
         .add(x, "w")
         .add(y, "d")
